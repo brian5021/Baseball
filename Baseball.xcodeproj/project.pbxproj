@@ -15,6 +15,8 @@
 		F23CDA4B1B7F13F80000A302 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F23CDA491B7F13F80000A302 /* LaunchScreen.storyboard */; };
 		F23CDA561B7F13F80000A302 /* BaseballTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23CDA551B7F13F80000A302 /* BaseballTests.swift */; };
 		F23CDA611B7F13F80000A302 /* BaseballUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23CDA601B7F13F80000A302 /* BaseballUITests.swift */; };
+		F23CDA6F1B7FD60B0000A302 /* RestApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23CDA6E1B7FD60B0000A302 /* RestApiManager.swift */; };
+		F23CDA731B7FDF9F0000A302 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23CDA721B7FDF9F0000A302 /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		F23CDA5C1B7F13F80000A302 /* BaseballUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaseballUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F23CDA601B7F13F80000A302 /* BaseballUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseballUITests.swift; sourceTree = "<group>"; };
 		F23CDA621B7F13F80000A302 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F23CDA6E1B7FD60B0000A302 /* RestApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestApiManager.swift; sourceTree = "<group>"; };
+		F23CDA721B7FDF9F0000A302 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		F23CDA3D1B7F13F80000A302 /* Baseball */ = {
 			isa = PBXGroup;
 			children = (
+				F23CDA721B7FDF9F0000A302 /* SwiftyJSON.swift */,
 				F23CDA3E1B7F13F80000A302 /* AppDelegate.swift */,
 				F23CDA401B7F13F80000A302 /* FirstViewController.swift */,
 				F23CDA421B7F13F80000A302 /* SecondViewController.swift */,
@@ -106,6 +111,7 @@
 				F23CDA471B7F13F80000A302 /* Assets.xcassets */,
 				F23CDA491B7F13F80000A302 /* LaunchScreen.storyboard */,
 				F23CDA4C1B7F13F80000A302 /* Info.plist */,
+				F23CDA6E1B7FD60B0000A302 /* RestApiManager.swift */,
 			);
 			path = Baseball;
 			sourceTree = "<group>";
@@ -260,6 +266,8 @@
 			files = (
 				F23CDA431B7F13F80000A302 /* SecondViewController.swift in Sources */,
 				F23CDA3F1B7F13F80000A302 /* AppDelegate.swift in Sources */,
+				F23CDA6F1B7FD60B0000A302 /* RestApiManager.swift in Sources */,
+				F23CDA731B7FDF9F0000A302 /* SwiftyJSON.swift in Sources */,
 				F23CDA411B7F13F80000A302 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -491,6 +499,7 @@
 				F23CDA671B7F13F80000A302 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F23CDA681B7F13F80000A302 /* Build configuration list for PBXNativeTarget "BaseballTests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +508,7 @@
 				F23CDA6A1B7F13F80000A302 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F23CDA6B1B7F13F80000A302 /* Build configuration list for PBXNativeTarget "BaseballUITests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +517,7 @@
 				F23CDA6D1B7F13F80000A302 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

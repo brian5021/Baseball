@@ -20,6 +20,15 @@ class SecondViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func PostTest(sender: UIButton) {
+        performPost()
+    }
+    
+    func performPost(){
+        RestApiManager.sharedInstance.postState { json -> Void in
+            return json["results"]
+        }
+    }
 
 }
 

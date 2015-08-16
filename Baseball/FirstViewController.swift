@@ -7,8 +7,12 @@
 //
 
 import UIKit
+import Foundation
+
 
 class FirstViewController: UIViewController {
+
+    @IBOutlet weak var testLabel: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,7 +23,16 @@ class FirstViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
+    @IBAction func TestButton(sender: UIButton) {
+        performGet()
+    }
+    
+    func performGet(){
+        RestApiManager.sharedInstance.getState { json -> Void in
+            return json["results"]
+        }
+    }
+    
 }
 
